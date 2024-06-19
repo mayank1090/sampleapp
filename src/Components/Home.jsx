@@ -141,7 +141,7 @@ const OfficeData = [
         </div>
 
         <div className="thelowerrowoftheservices block lg:flex gap-7 pt-12 ">
-            <div className="theleftsideoftherow block lg:flex gap-7">
+            <div className="theleftsideoftherow block lg:flex lg:flex-col gap-7">
                 <div className="theuppertop">
                 <img src="third.png" alt="firstimg" className="thethird"/>
                 </div>
