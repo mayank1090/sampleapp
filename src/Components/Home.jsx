@@ -136,21 +136,65 @@ const OfficeData = [
 
       <div className="thebelowgridimage">
         <div className="theupperrowfortheview block lg:flex items-center gap-7">
-            <div className="harkuch"><img src="first.png" alt="firstimg" className="thefirst "/></div>
-            <div className="cbelowjedd"><img src="second.png" alt="firstimg" className="thesecond"/></div>
+            <div className="harkuch relative">
+                <img src="first.png" alt="firstimg" className="thefirst "/>
+                <div className="theaboslutedivprnt p-8 absolute h-full flex flex-col justify-between top-0">
+                    <p className="theupperabsolutetext">
+                    Taxability of Returning NRIs, OCIs, PIOs And Foreign Citizens Coming To India
+                    </p>
+                    <div className="lowerdivofarrow text-end text-white text-2xl">
+                        <FontAwesomeIcon icon={faArrowRight} className="canbeanyarrow"/>
+                    </div>
+                </div>
+                </div>
+            <div className="cbelowjedd relative">
+                <img src="second.png" alt="firstimg" className="thesecond"/>
+                <div className="theaboslutedivprnt p-8 absolute h-full flex flex-col justify-between top-0">
+                    <p className="theupperabsolutetext">
+                    Sale of Properties in India by NRI
+                    </p>
+                    <div className="lowerdivofarrow text-end text-white text-2xl">
+                        <FontAwesomeIcon icon={faArrowRight} className="canbeanyarrow"/>
+                    </div>
+                </div>
+                </div>
         </div>
 
-        <div className="thelowerrowoftheservices block lg:flex gap-7 pt-12 ">
+        <div className="thelowerrowoftheservices block lg:flex gap-7 pt-0 lg:pt-12 ">
             <div className="theleftsideoftherow block lg:flex lg:flex-col gap-7">
-                <div className="theuppertop">
+                <div className="theuppertop relative">
                 <img src="third.png" alt="firstimg" className="thethird"/>
+                <div className="theaboslutedivprnt p-8 absolute h-full flex flex-col justify-between top-0">
+                    <p className="theupperabsolutetext">
+                    Repatriation and remittance
+                    </p>
+                    <div className="lowerdivofarrow text-end text-white text-2xl">
+                        <FontAwesomeIcon icon={faArrowRight} className="canbeanyarrow"/>
+                    </div>
                 </div>
-                <div className="theupperbottom">
+                </div>
+                <div className="theupperbottom relative">
                 <img src="forth.png" alt="firstimg" className="theforth"/>
+                <div className="theaboslutedivprnt p-8 absolute h-full flex flex-col justify-between top-0">
+                    <p className="theupperabsolutetext">
+                    NRI, Non-Resident Income Tax Return Services In India
+                    </p>
+                    <div className="lowerdivofarrow text-end text-white text-2xl">
+                        <FontAwesomeIcon icon={faArrowRight} className="canbeanyarrow"/>
+                    </div>
+                </div>
                 </div>
             </div>
-            <div className="therightsideoftherow">
+            <div className="therightsideoftherow relative">
             <img src="fifth.png" alt="firstimg" className="thefifth"/>
+            <div className="theaboslutedivprnt p-8 absolute h-full flex flex-col justify-between top-0">
+                    <p className="theupperabsolutetext">
+                    Obtaining NRI OCI Property Sale Lower TDS Certificate Form 13
+                    </p>
+                    <div className="lowerdivofarrow text-end text-white text-2xl">
+                        <FontAwesomeIcon icon={faArrowRight} className="canbeanyarrow"/>
+                    </div>
+                </div>
             </div>
         </div>
       </div>

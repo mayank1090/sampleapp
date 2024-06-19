@@ -98,11 +98,11 @@
     line-height: 27.72px;
 }
 
-.servicesbg{
+.servicesbg {
     width: 370px;
 }
 
-.ourservices{
+.ourservices {
     background-color: #F5F5F5;
     padding-top: 50px;
 }
@@ -111,26 +111,38 @@
     flex: 2;
 }
 
-.cbelowjedd{
+.cbelowjedd {
     flex: 1;
 }
 
-.thefirst,.thesecond{
+.thefirst,
+.thesecond {
     width: 100%;
     height: 330px;
 }
 
-.theleftsideoftherow,.therightsideoftherow{
-  flex: 1;
+.theleftsideoftherow,
+.therightsideoftherow {
+    flex: 1;
 }
 
-.thethird,.theforth,.thefifth{
+.thethird,
+.theforth,
+.thefifth {
     width: 100%;
     height: 100%;
 }
 
+.theupperabsolutetext {
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 41px;
+    color: white;
+}
+
 @media screen and (max-width:1280px) {
-    
+
     .lowerslimbold {
         padding-top: 2rem;
         font-family: Plus Jakarta Sans;
@@ -150,7 +162,7 @@
 }
 
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px) {
 
     .innerbold {
         font-family: Plus Jakarta Sans;
@@ -169,12 +181,12 @@
         color: white;
     }
 
-    .theloweroffieslist{
+    .theloweroffieslist {
         justify-content: center;
     }
 
-    .thebelowgridimage img{
-        padding-top: 1rem;
+    .harkuch ,.cbelowjedd,.theuppertop,.theupperbottom,.therightsideoftherow{
+        margin-top: 1rem;
     }
 
     .backgroundservicesprnt {
@@ -182,7 +194,7 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     .lowerslimbold {
         padding-top: 2rem;
         font-family: Plus Jakarta Sans;
@@ -216,9 +228,9 @@
     }
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:640px) {
 
-    .lowerslimbold{
+    .lowerslimbold {
         padding-top: 1rem;
         font-family: Plus Jakarta Sans;
         font-size: 8px;
@@ -235,11 +247,12 @@
         font-size: 11px;
     }
 
-    .thecontactustext{
+    .thecontactustext {
         font-size: 8px;
     }
 
-    .aboutusheading,.theotherlowersmalltext  {
+    .aboutusheading,
+    .theotherlowersmalltext {
         font-family: Plus Jakarta Sans;
         font-size: 18px;
         font-weight: 400;
@@ -250,12 +263,12 @@
         gap: 0.25rem;
     }
 
-    .teammembername{
+    .teammembername {
         font-size: 18px;
         line-height: 20.3px;
     }
 
-    .teammemberdesignation{
+    .teammemberdesignation {
         font-size: 14px;
     }
 
@@ -269,4 +282,24 @@
     .backgroundservicesprnt {
         width: 100%;
     }
+
+    .theupperabsolutetext {
+        font-family: Plus Jakarta Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        color: white;
+    }
+}
+
+.harkuch ,.cbelowjedd,.theuppertop,.theupperbottom,.therightsideoftherow{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+
+
+
+.theaboslutedivprnt{
+    width: 100%;
 }
